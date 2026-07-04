@@ -137,3 +137,5 @@ def scan(ip, port):
 ---
 
 *Notes continue in Phase 2 (Days 13–30) — Linux, Recon, Nmap, OSINT*
+
+> 💻 Full working code for these tools lives in [Cybersecurity-tools](https://github.com/MukeshKumarC-0309/Cybersecurity-tools)            
