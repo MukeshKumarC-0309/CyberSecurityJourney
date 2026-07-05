@@ -12,7 +12,10 @@ cybersec-notes/
 ├── README.md               ← this file
 ├── days-01-04.md           ← OSI model, TCP/IP, DNS, DHCP, ARP, HTTP, HTTPS, TLS
 ├── days-05-08.md           ← Wireshark deep dive, Python sockets, Windows internals
-└── days-09-12.md           ← CMD/PowerShell, VirtualBox setup, CIA triad, Registry
+├── days-09-12.md           ← CMD/PowerShell, VirtualBox setup, CIA triad, Registry
+├── days-13-16.md           ← GitHub workflow, cryptography, Phase 1 review, Linux intro
+├── days-17-20.md           ← Linux permissions, essential tools, SSH, bash scripting
+└── days-21-24.md           ← sudo/privesc, OverTheWire Bandit, passive recon, OSINT
 ```
 
 ---
@@ -33,6 +36,18 @@ cybersec-notes/
 | 10 | VirtualBox setup — network modes, snapshots, VM allocation | days-09-12.md |
 | 11 | CIA Triad, threat modeling, core vocabulary | days-09-12.md |
 | 12 | Windows Registry — Run keys, services, persistence demo | days-09-12.md |
+| 13 | GitHub workflow, Python port scanner with threading | days-13-16.md |
+| 14 | Cryptography — hashing, salting, Base64, XOR | days-13-16.md |
+| 15 | Phase 1 review — full checklist and master cheatsheet | days-13-16.md |
+| 16 | Linux filesystem hierarchy, navigation, hidden files | days-13-16.md |
+| 17 | Linux permissions — chmod, SUID, /etc/shadow | days-17-20.md |
+| 18 | grep, find, netstat/ss, ps, curl, pipes and redirection | days-17-20.md |
+| 19 | SSH — key auth, hardening, port forwarding, lateral movement | days-17-20.md |
+| 20 | Bash scripting — ping sweeper, wordlist reader, recon script | days-17-20.md |
+| 21 | sudo privesc, GTFOBins, cron jobs, Linux privesc checklist | days-21-24.md |
+| 22 | OverTheWire Bandit levels 0–12 with solutions | days-21-24.md |
+| 23 | Passive recon — WHOIS, Google dorks, robots.txt, crt.sh | days-21-24.md |
+| 24 | Shodan, theHarvester, OSINT Framework, full recon workflow | days-21-24.md |
 
 ---
 
@@ -137,5 +152,3 @@ def scan(ip, port):
 ---
 
 *Notes continue in Phase 2 (Days 13–30) — Linux, Recon, Nmap, OSINT*
-
-> 💻 Full working code for these tools lives in [Cybersecurity-tools](https://github.com/MukeshKumarC-0309/Cybersecurity-tools)            
