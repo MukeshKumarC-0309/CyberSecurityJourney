@@ -248,34 +248,6 @@
     border-radius: 3px;
   }
 
-  /* training queue */
-  .queue{ display:grid; gap: 10px; }
-  .qrow{
-    display:grid;
-    grid-template-columns: 20px 1fr auto;
-    gap: 12px;
-    align-items:center;
-    padding: 10px 12px;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-size: 13.5px;
-  }
-  .qbox{
-    width:14px;height:14px;
-    border: 1px solid var(--amber-dim);
-    border-radius: 2px;
-    position: relative;
-  }
-  .qbox.done{ background: var(--amber); border-color: var(--amber); }
-  .qlabel{ color: var(--text); }
-  .qlabel .sub{ color: var(--text-dim); font-size: 12px; }
-  .qmeta{ color: var(--text-dim); font-size: 12px; white-space: nowrap; }
-  .bar{
-    width: 90px; height: 5px; border-radius: 3px;
-    background: var(--surface-2); overflow:hidden; display:inline-block; margin-right:8px; vertical-align:middle;
-  }
-  .bar-fill{ height:100%; background: var(--amber); }
-
   /* stats */
   .stat-grid{
     display:grid;
@@ -344,8 +316,6 @@
       text-transform: uppercase;
       margin-bottom: 2px;
     }
-    .qrow{ grid-template-columns: 16px 1fr; }
-    .qmeta{ grid-column: 2; }
   }
 
   @media (prefers-reduced-motion: reduce){
@@ -373,7 +343,7 @@
         <h1 class="callsign">CYBER VORTEX<span class="cursor"></span></h1>
         <p class="role-line">
           B.Tech Computer Science Engineering &middot; MIT Manipal &middot; Class of 2029 &middot; 2nd year<br>
-          <span>targeting: Tier 1 SOC Analyst / DFIR internships &middot; application window Jan&ndash;Feb 2027</span>
+          <span>targeting: Tier 1 SOC Analyst / DFIR internships</span>
         </p>
       </header>
 
@@ -437,6 +407,12 @@
               <td data-label="source" class="src">VirtualBox</td>
               <td data-label="since" class="since">2026</td>
             </tr>
+            <tr>
+              <td data-label="severity"><span class="sev sev-medium">MEDIUM</span></td>
+              <td data-label="signature" class="sig">SAL1 &mdash; Security Analyst Level 1 <span style="color:var(--text-dim);">(in progress)</span></td>
+              <td data-label="source" class="src">TryHackMe</td>
+              <td data-label="since" class="since">2026</td>
+            </tr>
           </tbody>
         </table>
       </section>
@@ -453,7 +429,7 @@
             <p class="ticket-desc">
               Multi-agent threat detection &amp; response system on CrewAI Flows. Correlates an SSH honeypot
               (Cowrie) with Windows Event Logs through a decision-tree correlation layer using
-              <code>pd.merge_asof</code> and confidence scoring. Public reveal planned December 2026.
+              <code>pd.merge_asof</code> and confidence scoring.
             </p>
             <div class="ticket-stack">
               <span class="chip">CrewAI</span><span class="chip">Python</span><span class="chip">Cowrie</span><span class="chip">pandas</span>
@@ -488,32 +464,6 @@
             <div class="ticket-stack">
               <span class="chip">sql.js / WASM</span><span class="chip">file forensics</span><span class="chip">GitHub Pages</span>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="training">
-        <h2 class="h2">training-queue <span class="path">~/readiness-plan</span></h2>
-        <div class="queue">
-          <div class="qrow">
-            <div class="qbox"></div>
-            <div class="qlabel">SAL1 &mdash; TryHackMe <span class="sub">Security Analyst Level 1 path</span></div>
-            <div class="qmeta"><span class="bar"><span class="bar-fill" style="width:46%"></span></span>46% &middot; target Aug 2026</div>
-          </div>
-          <div class="qrow">
-            <div class="qbox"></div>
-            <div class="qlabel">HTB Sherlocks <span class="sub">LogJammer &rarr; Meerkat</span></div>
-            <div class="qmeta">planned &middot; Sep&ndash;Oct 2026</div>
-          </div>
-          <div class="qrow">
-            <div class="qbox"></div>
-            <div class="qlabel">CompTIA Security+</div>
-            <div class="qmeta">planned &middot; Dec 2026</div>
-          </div>
-          <div class="qrow">
-            <div class="qbox"></div>
-            <div class="qlabel">Memory forensics project <span class="sub">Volatility 3</span></div>
-            <div class="qmeta">planned &middot; Dec 2026</div>
           </div>
         </div>
       </section>
